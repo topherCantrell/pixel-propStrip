@@ -1,0 +1,119 @@
+
+#Palette start=0
+00_00_00
+0F_00_00
+00_0F_00
+00_00_0F
+00_0F_0F
+0F_0F_00
+02_00_02
+40_40_40
+
+#Chars chars=.ABCDE+X values=00,01,02,03,04,05,06,07
+
+; 5x5 plates
+
+#DrawBytes x=0 y=0
+
+A......B B......A A......B B......A A......B
+..+++X.. ..XXXX.. ..XXXX.. ..X++X.. ..XXXX..
+..+..X.. ..+..X.. ..+..X.. ..X..X.. ..X..+..
+..+++X.. ..XXXX.. ..XXXX.. ..XXXX.. ..XXXX..
+..+..X.. ..X..+.. ..+..X.. ..+..X.. ..+..X..
+..+++X.. ..XXXX.. ..XXXX.. ..+++X.. ..XXXX..
+........ ........ ........ ........ ........
+E......D D......E E......D E......D E......D
+
+E......D D......E E......D E......D E......D
+..XXXX.. ..XXXX.. ..XXXX.. ..XXXX.. ..XXXX..
+..X..+.. ..+..X.. ..X..X.. ..X..X.. ..X..X..
+..XXXX.. ..+++X.. ..XXXX.. ..XXXX.. ..XXXX..
+..X..X.. ..+..X.. ..X..X.. ..+..X.. ..X..X..
+..XXXX.. ..+++X.. ..XXXX.. ..+++X.. ..X..X..
+........ ........ ........ ........ ........
+A......B B......A A......B B......A A......B
+
+A......B B......A A......B B......A A......B
+..X+++.. ..XXXX.. ..+++X.. ..XXXX.. ..XXXX..
+..X..+.. ..X..+.. ..+..X.. ..X..+.. ..X..+..
+..XXXX.. ..X+++.. ..XXXX.. ..XXXX.. ..XXXX..
+..X..X.. ..X..+.. ..X..X.. ..X..+.. ..X..+..
+..XXXX.. ..XXXX.. ..XXXX.. ..XXXX.. ..X+++..
+........ ........ ........ ........ ........
+E......D D......E E......D E......D E......D
+
+E......D D......E E......D E......D E......D
+X..XXXX. X..+++X. X..XXXX. X..XXXX. X..X++X.
+X..X..X. X..+..X. X..+..X. X..+..X. X..X..X.
+X..X++X. X..+++X. X..XXXX. X..XXXX. X..XXXX.
+X..X..X. X..+..X. X..X..+. X..+..X. X..+..X.
+X..XXXX. X..+++X. X..XXXX. X..XXXX. X..+++X.
+........ ........ ........ ........ ........
+A......B B......A A......B B......A A......B
+
+A......B B......A A......B B......A A......B
+X..XXXX. X..XXXX. X..XXXX. X..XXXX. X..XXXX.
+X..X..+. X..X..+. X..+..X. X..X..X. X..X..X.
+X..XXXX. X..XXXX. X..+++X. X..XXXX. X..XXXX.
+X..+..X. X..X..X. X..+..X. X..X..X. X..+..X.
+X..XXXX. X..XXXX. X..+++X. X..XXXX. X..+++X.
+........ ........ ........ ........ ........
+E......D D......E E......D E......D E......D
+
+#Delay ms=1000
+
+#DrawLast x=1 y=1
+#Delay ms=1000
+
+#DrawLast x=2 y=2
+#Delay ms=1000
+
+#DrawLast x=3 y=3
+#Delay ms=1000
+
+#DrawLast x=4 y=4
+#Delay ms=1000
+
+#DrawLast x=5 y=5
+#Delay ms=1000
+
+#DrawLast x=6 y=6
+#Delay ms=1000
+
+#DrawLast x=7 y=7
+#Delay ms=1000
+
+#DrawLast x=8 y=8
+#Delay ms=1000
+
+
+
+
+#Palette start=0
+00_00_00_00
+00_FF_10_FF
+
+#Chars chars=.ABCDE+X values=00,01,02,03,04,05,06,07
+
+#DrawBytes x=0 y=0
+........
+.AAAAAA.
+.A....A.
+.A.BB.A.
+.A.BB.A.
+.A....A.
+.AAAAAA.
+........
+
+#DrawLast x=7 y=7
+
+#Delay ms=1000
+
+#Restart
+
+#Repeat count=4
+#Repeat count=2
+; Other commands in here
+#Next
+#Next
+
