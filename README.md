@@ -6,3 +6,6 @@ NEO Pixel Strips
 ## Links
 
 
+## Hardware
+
+![](https://github.com/topherCantrell/propNeoPixelStrip/blob/master/art/schematic.jpg)
