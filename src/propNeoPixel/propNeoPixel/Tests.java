@@ -2,7 +2,7 @@ package propNeoPixel.propNeoPixel;
 
 public class Tests {
 	
-	public static void main(String [] args) throws Exception {
+	public static void main2(String [] args) throws Exception {
 		
 		NEOStrip strip = new NEOStrip("COM7");
 		
@@ -14,9 +14,9 @@ public class Tests {
 		
 	}
 
-public static void main2(String[] args) throws Exception {
+public static void main(String[] args) throws Exception {
 		
-		NEOStrip strip = new NEOStrip("COM7");
+		NEOStrip strip = new NEOStrip("COM5");
 
 		// Pattern of 5 pixels with blanks on the end
 		strip.setPattern(0, 0,1,2,3,2,1,0);
